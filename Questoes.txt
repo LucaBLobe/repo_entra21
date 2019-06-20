@@ -34,4 +34,26 @@ Oi aluno
 
 16.	Faça uma classe chamada TesteTurma para criar dois objetos da classe Turma. Adicione informações a eles e depois mostre essas informações na tela
 
-lucablobe@gmail.com
+17. Defina um vínculo entre os objetos que representam os clientes e os objetos que representam os cartões de crédito. Para isso, você deve alterar a classe CartaoDeCredito.
+
+18. Teste o relacionamento entre clientes e cartões de crédito.
+
+19. Defina um vínculo entre os objetos que representam as agências e os objetos que representam as contas. Para isso, você deve alterar a classe Conta.
+
+20. Teste o relacionamento entre contas e agências.Defina um vínculo entre os alunos e as turmas, criando na classe Aluno um atributo do tipo Turma.
+
+21. Teste o relacionamento entre os alunos e as turmas, criando um objeto de cada classe e atribuindo valores a eles. 
+
+22. Exiba na tela os valores que estão nos atributos da turma através do objeto da classe Aluno.
+
+23. Acrescente alguns métodos na classe Conta para realizar as operações de deposito, saque, impressão de extrato e consulta do saldo disponível.
+
+24. Teste os métodos da classe Conta.
+
+25. Adicione na classe Funcionario dois métodos: um para aumentar o salário e outro para consultar os dados dos funcionários.
+
+26. Na classe TesteFuncionario teste novamente os métodos de um objeto da classe Funcionario.
+
+27. Crie uma classe chamada Gerente para definir os objetos que representarão os gerentes do banco. Defina dois métodos de aumento salarial nessa classe. O primeiro deve aumentar o salário com uma taxa fixa de 10%. O segundo deve aumentar o salário com uma taxa variável.
+
+28. Teste os métodos de aumento salarial definidos na classe Gerente.
