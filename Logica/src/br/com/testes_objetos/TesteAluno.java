@@ -1,4 +1,6 @@
-package br.com.orientacao_a_objeto;
+package br.com.testes_objetos;
+
+import br.com.orientacao_a_objeto.Aluno;
 
 public class TesteAluno {
 	public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class TesteAluno {
 		
 		a1.rg = 654425142;
 		a2.rg = 54147887;
+		
 		
 		System.out.println("nome: "+ a1.nome);
 		System.out.println("rg: "+ a1.rg);

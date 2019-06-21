@@ -2,9 +2,9 @@ package br.com.orientacao_a_objeto;
 
 public class Turma {
 	
-	String periodo;
-	String serie;
-	String sigla;
-	String tipo;
+	public String periodo;
+	public String serie;
+	public String sigla;
+	public String tipo;
 
 }

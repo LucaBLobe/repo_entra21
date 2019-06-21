@@ -1,10 +1,13 @@
-package br.com.orientacao_a_objeto;
+package br.com.testes_objetos;
+
+import br.com.orientacao_a_objeto.Turma;
 
 public class TesteTurma {
 
 	public static void main(String[] args) {
 		Turma tu1 = new Turma();
 		Turma tu2 = new Turma();
+	
 
 		tu1.periodo = "noturno";
 		tu2.periodo = "matutino";

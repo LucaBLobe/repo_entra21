@@ -4,7 +4,7 @@ public class Cliente {
 	
 	//Atributos
 	
-	String nomeCliente;
-	int codigoCliente;
+	public String nomeCliente;
+	public int codigoCliente;
 
 }

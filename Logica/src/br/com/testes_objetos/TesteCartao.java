@@ -1,4 +1,6 @@
-package br.com.orientacao_a_objeto;
+package br.com.testes_objetos;
+
+import br.com.orientacao_a_objeto.Cartao;
 
 public class TesteCartao {
 

@@ -2,8 +2,9 @@ package br.com.orientacao_a_objeto;
 
 public class Aluno {
 	
-	String nome;
-	int rg;
-	String dtnascimento;
+	public String nome;
+	public int rg;
+	public String dtnascimento;
+	public Turma turma;
 
 }

@@ -1,10 +1,13 @@
-package br.com.orientacao_a_objeto;
+package br.com.testes_objetos;
+
+import br.com.orientacao_a_objeto.Agencia;
 
 public class TesteAgencia {
 
 	public static void main(String[] args) {
 		Agencia ramiro = new Agencia();
 		Agencia centro = new Agencia();
+		
 		
 		ramiro.numeroAgencia = 15;
 		centro.numeroAgencia = 25;

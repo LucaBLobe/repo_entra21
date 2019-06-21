@@ -4,11 +4,12 @@ public class Cartao {
 	
 	//Atributos
 	
-	int numeroCartao;
-	String dataValidade;
+	public int numeroCartao;
+	public String dataValidade;
+	public Cliente cliente;
 	
-	public double fazerCompra() {
-		return 0;
+	public void fazerCompra() {
+		
 	}
 
 }
