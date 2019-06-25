@@ -1,13 +1,13 @@
 package br.com.testes_objetos;
 
-import br.com.orientacao_a_objeto.Cartao;
+import br.com.orientacao_a_objeto.CartaoDeCredito;
 
-public class TesteCartao {
+public class TesteCartaoDeCredito {
 
 	public static void main(String[] args) {
 
-		Cartao ct1 = new Cartao();
-		Cartao ct2 = new Cartao();
+		CartaoDeCredito ct1 = new CartaoDeCredito();
+		CartaoDeCredito ct2 = new CartaoDeCredito();
 
 		ct1.numeroCartao = 5335445;
 		ct1.dataValidade = "05/26";

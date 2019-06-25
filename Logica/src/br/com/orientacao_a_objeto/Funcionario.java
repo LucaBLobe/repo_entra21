@@ -3,7 +3,7 @@ package br.com.orientacao_a_objeto;
 public class Funcionario {
 	
 	public String nome;
-	public Double salFuncionario;
+	public double salFuncionario = 1000.0;
 	
 	public void AumentaSalario(double valor) {
 		salFuncionario += valor;

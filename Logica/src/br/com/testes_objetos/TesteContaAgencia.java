@@ -6,9 +6,9 @@ import br.com.orientacao_a_objeto.Conta;
 public class TesteContaAgencia {
 
 	public static void main(String[] args) {
-		Conta c1 = new Conta();
-		Conta c2 = new Conta();
-		Agencia agenciaNova = new Agencia();
+		Conta c1 = new Conta(null);
+		Conta c2 = new Conta(null);
+		Agencia agenciaNova = new Agencia(0);
 		agenciaNova.numeroAgencia = 15;
 
 		c1.numero = 10001;

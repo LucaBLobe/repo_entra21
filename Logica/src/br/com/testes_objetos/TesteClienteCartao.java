@@ -1,6 +1,6 @@
 package br.com.testes_objetos;
 
-import br.com.orientacao_a_objeto.Cartao;
+import br.com.orientacao_a_objeto.CartaoDeCredito;
 import br.com.orientacao_a_objeto.Cliente;
 
 public class TesteClienteCartao {
@@ -12,14 +12,14 @@ public class TesteClienteCartao {
 
 		cl1.nomeCliente = "Joao da Cunha";
 		cl1.codigoCliente = 1234;
-		Cartao cartaoCl1 = new Cartao();
+		CartaoDeCredito cartaoCl1 = new CartaoDeCredito();
 		cartaoCl1.cliente = cl1;
 		cartaoCl1.dataValidade = "04/26";
 		cartaoCl1.numeroCartao = 55554446;
 
 		cl2.nomeCliente = "Marilia Mendonca";
 		cl2.codigoCliente = 2345;
-		Cartao cartaoCl2 = new Cartao();
+		CartaoDeCredito cartaoCl2 = new CartaoDeCredito();
 		cartaoCl2.cliente = cl2;
 		cartaoCl2.dataValidade = "06/22";
 		cartaoCl2.numeroCartao = 56654346;
