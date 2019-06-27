@@ -49,4 +49,5 @@
 
 
 41.    Crie uma classe chamada TesteFuncionario2. Dentro dessa classe, crie um objeto do tipo Funcionario.
-	Receba do teclado o valor para o atributo nome. Depois crie um laço que permita que o usuário possa alterar o nome e o salário dos funcionários e também visualizar os dados atuais.
+	Receba do teclado o valor para o atributo nome. Depois crie um laço que permita que o usuário possa alterar 
+	o nome e o salário dos funcionários e também visualizar os dados atuais.

@@ -21,14 +21,19 @@ public class TesteContaAgencia {
 		c2.agencia = agenciaNova;
 
 		System.out.println("Numero: " + c1.numero);
-		System.out.println("saldo: " + c1.saldo);
+		System.out.println("saldo c1: " + c1.saldo);
 		System.out.println("limite: " + c1.limite);
 		System.out.println("Numero Agencia: " + c1.agencia.numeroAgencia + "\n");
 
 		System.out.println("Numero: " + c2.numero);
-		System.out.println("saldo: " + c2.saldo);
+		System.out.println("saldo c2: " + c2.saldo);
 		System.out.println("limite: " + c2.limite);
 		System.out.println("Numero Agencia: " + c2.agencia.numeroAgencia);
+		
+		c1.transferencia(c2, 200);
+		
+		System.out.println("saldo c1: " + c1.saldo);
+		System.out.println("saldo c2: " + c2.saldo);
 
 	}
 

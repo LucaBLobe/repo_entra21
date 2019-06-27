@@ -29,8 +29,9 @@ public class Conta {
 
 	}
 	
-	public void transferencia(double valor) {
-	
+	public void transferencia(Conta recebe, double valor) {
+		this.saldo -= valor;
+		recebe.saldo += valor;
 		
 
 	}
