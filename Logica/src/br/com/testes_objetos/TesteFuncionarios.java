@@ -9,14 +9,16 @@ public class TesteFuncionarios {
 		Funcionario f1 = new Funcionario();
 		Funcionario f2 = new Funcionario();
 		
-		f1.nome = "joao das massas";
-		f2.nome = "joao das Neves";
-		f1.salFuncionario = 1200.0;
-		f2.salFuncionario = 1500.0;
+		f1.setNome("joao das massas");
+		f2.setNome("joao das Neves");
+		f1.setSalFuncionario(1200.0);
+		f2.setSalFuncionario(1500.0);
 		f1.AumentaSalario(500);
 		f1.ConsultaDados();
 		f2.ConsultaDados();
-		
+		System.out.println(f1.getValRefeicaoDia());
+		f1.AlteraValeRefeição(-50.0);
+		System.out.println(f1.getValRefeicaoDia());
 	}
 
 }
