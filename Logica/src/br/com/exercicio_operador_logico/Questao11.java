@@ -2,7 +2,7 @@ package br.com.exercicio_operador_logico;
 
 import br.com.util.Teclado;
 
-public class Questão11 {
+public class Questao11 {
 
 	public static void main(String[] args) {
 		int num1;
